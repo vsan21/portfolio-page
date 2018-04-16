@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+
+/* Navigation styles */
+.navbar-brand {
+  color: black;
+  font-size: 2rem;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  outline: 0;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+/* General styles */
+.container header {
+  width: 100%;
+  text-align: center;
+  font-family: 'Cute Font', cursive;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10rem;
+}
+
+/* Introduction section styles */
+.intro {
+ background-image: url('./images/background.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+/* About section styles */
+#about img {
+height: 100%;
+width: 100%;
+border-radius: 50%
+}
+
+#about .description{
+ padding: 2em;
+ border-left: 4px solid #10828C;
+}
+
+#about .description p {
+  line-height: 2;
+  color: #888;
+}
+
+
+/* Technologies section styles */
+h5 {
+  font-family: 'Satisfy', cursive;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.tech-list {
+  list-style-type: none;
+  font-size: 1.25rem;
+  margin-left: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+#technologies {
+  justify-content: space-between;
+}
